@@ -1,0 +1,24 @@
+[
+    {
+        "type": "titulo",
+        "title": "Prueba"
+    },
+    {
+        "type": "simple",
+        "content": "Esto debe ir dentro de un párrafo"
+    },
+    {
+        "type": "simple",
+        "title": "El título",
+        "content": "Aquí un contenido debajo del título"
+    },
+    {
+        "type": "imagen",
+        "title": "Una imagen",
+        "content": "https://zoovetesmipasion.com/wp-content/uploads/2018/02/Anas_platyrhynchos.jpg"
+    },
+    {
+        "type": "titulo",
+        "title": "Fin"
+    }
+]

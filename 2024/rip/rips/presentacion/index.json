@@ -1,0 +1,30 @@
+[
+    {
+        "type": "titulo",
+        "title": "Una presentación"
+    },
+    {
+        "type": "simple",
+        "content": "Esta es la presentación del curso de aplicaciones ricas de internet"
+    },
+    {
+        "type": "simple",
+        "title": "Temario",
+        "content": "Este es el temario del curso de aplicaciones ricas de internet"
+    },
+    {
+        "type": "simple",
+        "title": "Laboratorio final",
+        "content": "Tiene que haber un laboratorio final que presente estas presentaciones"
+    },
+    {
+        "type": "imagen",
+        "title": "Tecnologías a usar",
+        "content": "https://i1.wp.com/www.nosinmiubuntu.com/wp-content/uploads/2018/01/html5_css3_javascript5.png?ssl=1"
+    },
+    {
+        "type": "titulo",
+        "title": "Fin"
+    }
+]
+

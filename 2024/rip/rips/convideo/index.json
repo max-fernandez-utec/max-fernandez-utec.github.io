@@ -1,0 +1,25 @@
+[
+    {
+        "type": "titulo",
+        "title": "Prueba"
+    },
+    {
+        "type": "simple",
+        "title": "El título",
+        "content": "Aquí un contenido debajo del título"
+    },
+    {
+        "type": "imagen",
+        "title": "Una imagen",
+        "content": "https://URL/multimedia/pato.jpg"
+    },
+    {
+        "type": "video",
+        "title": "Un video",
+        "content": "https://URL/multimedia/mundo.ogg"
+    },
+    {
+        "type": "titulo",
+        "title": "Fin"
+    }
+]
