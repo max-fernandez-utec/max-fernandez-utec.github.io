@@ -11,12 +11,12 @@
     {
         "type": "imagen",
         "title": "Una imagen",
-        "content": "https://URL/multimedia/pato.jpg"
+        "content": "https://max-fernandez-utec.github.io/2024/rip/multimedia/pato.jpg"
     },
     {
         "type": "video",
         "title": "Un video",
-        "content": "https://URL/multimedia/mundo.ogg"
+        "content": "https://max-fernandez-utec.github.io/2024/rip/multimedia/mundo.ogg"
     },
     {
         "type": "titulo",
