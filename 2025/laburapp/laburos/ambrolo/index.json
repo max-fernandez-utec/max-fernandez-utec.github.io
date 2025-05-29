@@ -1,0 +1,70 @@
+{
+    "imgperfil": "https://max-fernandez-utec.github.io/2025/laburapp/imgs/pato2.jpg",
+    "personales": {
+        "nombre": "Ambrosia López",
+        "nacionalidad": "Argentina",
+        "localidad": "Buenos Aires",
+        "fechanac": "1990-07-14",
+        "email": "prueba@prueba.com",
+        "redes": [
+            {
+                "nombre": "LinkedIn",
+                "url": "https://www.linkedin.com"
+            }
+        ]
+    },
+    "formacion": {
+        "formal": [
+            {
+                "institucion": "Escuela nº1",
+                "titulo": "Escolar",
+                "inicio": "2001-03-01",
+                "fin": "2007-12-01",
+                "grado": "Primario"
+            },
+            {
+                "institucion": "Liceo nº2",
+                "titulo": "Bachiller",
+                "inicio": "2008-03-01",
+                "fin": null,
+                "grado": "Secundario"
+            }
+        ],
+        "extra": [
+            {
+                "instituto": "Escuelas MAPA",
+                "nombrecurso": "Manicuría de vacas",
+                "inicio": "2010-04-24",
+                "fin": "2016-01-20",
+                "habilidades": "Manicuría de pezuñas, pintura escultórica pictórica"
+            }
+        ]
+    },
+    "experiencia": {
+        "remunerada": [
+            {
+                "nombrelugar": "Tambo los nogales",
+                "cargo": "Ordeñador de ardillas",
+                "inicio": "2014-02-03",
+                "fin": "2015-05-29",
+                "tareas": "Ordeñar ardillas, limpiar establos de ardillas"
+            },
+            {
+                "nombrelugar": "NASA",
+                "cargo": "Astronauta Jefe",
+                "inicio": "2018-02-03",
+                "fin": "2025-05-29",
+                "tareas": "Cocinar, limpiar, planchar"
+            }
+        ],
+        "noremunerada": [
+            {
+                "nombrelugar": "Iglesia nuestra señora de las camelias",
+                "cargo": "Voluntario",
+                "inicio": "2020-04-03",
+                "fin": null,
+                "tareas": "Bañar vagos, alimentar linyeras"
+            }
+        ]
+    }
+}
