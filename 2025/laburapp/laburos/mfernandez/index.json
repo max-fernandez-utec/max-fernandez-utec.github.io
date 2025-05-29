@@ -1,0 +1,79 @@
+{
+    "imgperfil": "https://max-fernandez-utec.github.io/2025/laburapp/imgs/mperfil.jpg",
+    "personales": {
+        "nombre": "Maximiliano Fernández",
+        "nacionalidad": "Uruguay",
+        "localidad": "Paysandú",
+        "fechanac": "1986-04-24",
+        "email": "maximiliano.fernande@utec.edu.uy",
+        "redes": [
+            {
+                "nombre": "LinkedIn",
+                "url": "https://www.linkedin.com"
+            },
+            {
+                "nombre": "Facebook",
+                "url": "https://www.facebook.com"
+            }
+        ]
+    },
+    "formacion": {
+        "formal": [
+            {
+                "institucion": "Escuela Padre Lamas",
+                "titulo": "Escolar",
+                "inicio": "1991-03-01",
+                "fin": "1997-12-01",
+                "grado": "Primario"
+            },
+            {
+                "institucion": "Liceo nº 2",
+                "titulo": "Liceal",
+                "inicio": "1998-03-01",
+                "fin": "2000-12-01",
+                "grado": "Secundario"
+            },
+            {
+                "institucion": "Liceo Militar General Artigas",
+                "titulo": "Bachillerato",
+                "inicio": "2001-03-01",
+                "fin": "2003-12-01",
+                "grado": "Secundario"
+            },
+            {
+                "institucion": "Universidad de la República",
+                "titulo": "Tecnólogo en Informática",
+                "inicio": "2013-03-01",
+                "fin": "2016-06-24",
+                "grado": "Universitario"
+            }
+        ],
+        "extra": [
+            {
+                "instituto": "Animation Campus",
+                "nombrecurso": "Animador Profesional 3D",
+                "inicio": "2004-03-01",
+                "fin": "2005-07-01",
+                "habilidades": "Modelado 3D, Animación, Efectos espaciales"
+            }
+        ]
+    },
+    "experiencia": {
+        "remunerada": [
+            {
+                "nombrelugar": "UTEC",
+                "cargo": "Docente encargado",
+                "inicio": "2016-03-01",
+                "fin": null,
+                "tareas": "Docente de talleres de RIA y Videojuegos"
+            },
+            {
+                "nombrelugar": "Ministerio de Industrias",
+                "cargo": "Asesor técnico",
+                "inicio": "2017-03-01",
+                "fin": null,
+                "tareas": "Encargado técnico del Observatorio Industrial"
+            }
+        ]
+    }
+}
