@@ -1,0 +1,94 @@
+html
+{
+    display: grid;
+    place-items: center;
+    position: fixed;
+    inset: 0;
+    padding: 1rem;
+    
+    background: url(../img/laboratorio.avif) no-repeat center / cover;
+    
+    &::before
+    {
+        content: '';
+        position: absolute;
+        inset: 0;
+       
+        background-color: var(--clr-bg-light);
+        opacity: .7;
+    }
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 1rem;
+    isolation: isolate;
+    width: min(100%, 1000px);
+    padding: 3rem 3rem 1rem;
+    
+    border-radius: 1rem;
+    border: var(--border-card);
+    border-top: solid 1px var(--clr-highlight);
+    
+    background: var(--gradient);
+    box-shadow: var(--sombra);
+}
+
+header
+{
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer
+{
+    grid-column: span 2;
+}
+
+form
+{
+    width: min(100%, 500px);
+    margin: 0 auto;
+    
+    & h2
+    {
+        width: 100%;
+        margin-block-end: 1.4rem;
+        text-align: center;
+    }
+    
+    & p
+    {
+        margin-block: 1rem;
+    }
+}
+
+input, label
+{
+    width: 100%;
+}
+
+label
+{
+    margin-bottom: 1rem;
+}
+
+[type=submit]
+{
+    margin-top: 1rem;
+}
+
+@media (max-width: 660px)
+{
+    body
+    {
+        grid-template-columns: 1fr;
+    }
+    
+    footer
+    {
+        grid-column: unset;
+    }
+}

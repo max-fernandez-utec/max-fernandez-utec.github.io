@@ -1,0 +1,77 @@
+body
+{
+    position: fixed;
+    inset: 0;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+
+    &::before
+    {
+        content: '';
+        display: block;
+        position: fixed;
+        inset: 0;
+        background-color: var(--clr-bg-light);
+        opacity: .3;
+    }
+    
+    & > *
+    {
+        isolation: isolate;
+    }
+}
+
+header
+{
+    padding: 1.6rem 2rem;
+    
+    background: var(--clr-bg);
+    box-shadow: var(--sombra);
+}
+
+main
+{
+    width: min(100%, 1200px);
+    margin: .5rem auto;
+    padding: .5rem;
+    
+    background: var(--clr-bg-op);
+    box-shadow: var(--sombra);
+}
+
+table tbody a
+{
+    display: inline-block;
+    padding: .4rem 2rem;
+
+    color: #fff;
+    background: var(--clr-primary);
+    text-decoration: none;
+    text-wrap: nowrap;
+    border: var(--border-card);
+    border-top: solid 1px var(--clr-highlight);
+    border-radius: .4rem;
+    cursor: pointer;
+
+    &:hover
+    {
+        color: var(--clr-primary);
+        background: var(--gradient-hover);
+    }
+}
+
+footer
+{
+    padding: .6rem;
+    background: var(--clr-bg);
+}
